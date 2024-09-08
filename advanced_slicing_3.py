@@ -96,3 +96,10 @@ print(temp_above_100)
 temperatures.reverse()
 print(temperatures)
 print(temperatures[4:9])
+
+''' 
+zork = 0
+for i in temperatures:
+    zork = zork + 1
+print("Total of days:", zork, "days")
+'''

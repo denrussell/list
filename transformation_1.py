@@ -36,7 +36,6 @@ print ("Grades in descending order:",grades)   # Then print.
 
 
 
-
 # Task 2: Calculate the average grade and display it.
 
 # print (len(grades))  # Checking the number of items on the list
@@ -82,10 +81,14 @@ if grades[9] < 80:
 
 
 print(grades)
-
+# I initially wrote these ones below...
 #grades[-3] = "Failed"
 #grades[-2] = "Failed"
 #grades[-1] = "Failed"
 #print(grades)
-
-
+'''   
+grades = [85, 90, 78, 88, 76, 95, 89, 80, 72, 93]
+for i in grades:
+    if i < 80:
+        print("Grade is",i,"= Failed")
+        '''
